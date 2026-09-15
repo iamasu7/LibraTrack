@@ -50,6 +50,17 @@ public class Main {
 
         } while (true);
 
-       
+        for (int i = 0; i < studentName.length; i++) {
+
+            String checkStatus = null;
+            if (paidFees[i]) {
+                checkStatus = ("Paid");
+            } else {
+                checkStatus = ("Not Paid");
+            }
+            System.out.println(studentName[i] + " " + studentAge[i] + " " + studentNumber[i] + " " + location[i] + " " + checkStatus);
+
+        }
+        
     }
 }
