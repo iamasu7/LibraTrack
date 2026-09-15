@@ -61,6 +61,23 @@ public class Main {
             System.out.println(studentName[i] + " " + studentAge[i] + " " + studentNumber[i] + " " + location[i] + " " + checkStatus);
 
         }
-        
+
+
+
+        System.out.println("Enter Student Name:___");
+        String searchTerm = in.next();
+        boolean found = false;
+
+        for (int i = 0; i < studentName.length; i++) {
+            if(searchTerm.equalsIgnoreCase(studentName[i])) {
+                System.out.println(studentName[i]+ "\t" +studentAge[i]+ "\t" +studentNumber[i]+ "\t" +location[i]+ "\t" +paidFees[i]);
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
+            System.out.println("Student Not Found.");
+        }
     }
 }
