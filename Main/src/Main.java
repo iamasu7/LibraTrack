@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Main {
     static void main(String[] args) {
         String[] studentName = {"Assan", "Lamin", "John", "Peter","Andrew"};
