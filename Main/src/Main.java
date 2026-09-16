@@ -53,7 +53,7 @@ public class Main {
             } else {
                 checkStatus = ("Not Paid");
             }
-            System.out.println(studentName[i] + " " + studentAge[i] + " " + studentNumber[i] + " " + location[i] + " " + checkStatus);
+            System.out.println(bookTitle[i] + " " + bookAuthor[i] + " " + bookIsbn[i] + " " + checkStatus);
 
         }
 
