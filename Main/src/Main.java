@@ -18,11 +18,8 @@ public class Main {
             System.out.println("Enter Book Name: ");
             String name = in.next();
 
-            System.out.println("Enter Student Age: ");
-            int age = in.nextInt();
-
-            System.out.println("Enter Student Number: ");
-            int stuNum = in.nextInt();
+            System.out.println("Enter Book Author: ");
+            String author = in.next();
 
             System.out.println("Enter Student Location: ");
             String lo = in.next();
