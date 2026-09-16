@@ -15,7 +15,7 @@ public class Main {
             String userInput = in.next();
 
             if (userInput.equalsIgnoreCase("n"))break;
-            System.out.println("Enter Student Name: ");
+            System.out.println("Enter Book Name: ");
             String name = in.next();
 
             System.out.println("Enter Student Age: ");
