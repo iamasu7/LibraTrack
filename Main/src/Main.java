@@ -21,8 +21,8 @@ public class Main {
             System.out.println("Enter Book Author: ");
             String author = in.next();
 
-            System.out.println("Enter Student Location: ");
-            String lo = in.next();
+            System.out.println("Enter Book ISBN: ");
+            double isbn = in.nextInt();
 
             System.out.println("Has The Student Paid The Tuition Fee: ");
             boolean fees = in.nextBoolean();
