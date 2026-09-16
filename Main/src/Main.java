@@ -31,9 +31,9 @@ public class Main {
             bookTitle[bookTitle.length-1] = name;
             System.out.println(Arrays.toString(bookTitle));
 
-            studentAge = Arrays.copyOf(studentAge, studentAge.length+1);
-            studentAge[studentAge.length-1] = age;
-            System.out.println(Arrays.toString(studentAge));
+            bookAuthor = Arrays.copyOf(bookAuthor, bookAuthor.length+1);
+            bookAuthor[bookAuthor.length-1] = author;
+            System.out.println(Arrays.toString(bookAuthor));
 
             studentNumber = Arrays.copyOf(studentNumber, studentNumber.length+1);
             studentNumber[studentNumber.length-1] = stuNum;
