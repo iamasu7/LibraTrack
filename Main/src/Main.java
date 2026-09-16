@@ -24,8 +24,8 @@ public class Main {
             System.out.println("Enter Book ISBN: ");
             double isbn = in.nextDouble();
 
-            System.out.println("Has The Student Paid The Tuition Fee: ");
-            boolean fees = in.nextBoolean();
+            System.out.println("Enter Book Status: ");
+            boolean status = in.nextBoolean();
 
             studentName = Arrays.copyOf(studentName, studentName.length+1);
             studentName[studentName.length-1] = name;
