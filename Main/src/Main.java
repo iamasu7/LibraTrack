@@ -39,13 +39,9 @@ public class Main {
             bookIsbn[bookIsbn.length-1] = isbn;
             System.out.println(Arrays.toString(bookIsbn));
 
-            location = Arrays.copyOf(location, location.length+1);
-            location[location.length-1] = lo;
-            System.out.println(Arrays.toString(location));
-
-            paidFees = Arrays.copyOf(paidFees, paidFees.length+1);
-            paidFees[paidFees.length-1] = fees;
-            System.out.println(Arrays.toString(paidFees));
+            bookAvailable = Arrays.copyOf(bookAvailable, bookAvailable.length+1);
+            bookAvailable[bookAvailable.length-1] = status;
+            System.out.println(Arrays.toString(bookAvailable));
 
         } while (true);
 
