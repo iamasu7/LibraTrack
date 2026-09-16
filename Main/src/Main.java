@@ -48,7 +48,7 @@ public class Main {
         for (int i = 0; i < bookTitle.length; i++) {
 
             String checkStatus = null;
-            if (paidFees[i]) {
+            if (bookAvailable[i]) {
                 checkStatus = ("Paid");
             } else {
                 checkStatus = ("Not Paid");
