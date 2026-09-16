@@ -35,9 +35,9 @@ public class Main {
             bookAuthor[bookAuthor.length-1] = author;
             System.out.println(Arrays.toString(bookAuthor));
 
-            studentNumber = Arrays.copyOf(studentNumber, studentNumber.length+1);
-            studentNumber[studentNumber.length-1] = stuNum;
-            System.out.println(Arrays.toString(studentNumber));
+            bookIsbn = Arrays.copyOf(bookIsbn, bookIsbn.length+1);
+            bookIsbn[bookIsbn.length-1] = isbn;
+            System.out.println(Arrays.toString(bookIsbn));
 
             location = Arrays.copyOf(location, location.length+1);
             location[location.length-1] = lo;
