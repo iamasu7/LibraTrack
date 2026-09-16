@@ -27,9 +27,9 @@ public class Main {
             System.out.println("Enter Book Status: ");
             boolean status = in.nextBoolean();
 
-            studentName = Arrays.copyOf(studentName, studentName.length+1);
-            studentName[studentName.length-1] = name;
-            System.out.println(Arrays.toString(studentName));
+            bookTitle = Arrays.copyOf(bookTitle, bookTitle.length+1);
+            bookTitle[bookTitle.length-1] = name;
+            System.out.println(Arrays.toString(bookTitle));
 
             studentAge = Arrays.copyOf(studentAge, studentAge.length+1);
             studentAge[studentAge.length-1] = age;
