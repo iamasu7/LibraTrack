@@ -63,9 +63,9 @@ public class Main {
         String searchTerm = in.next();
         boolean found = false;
 
-        for (int i = 0; i < studentName.length; i++) {
-            if(searchTerm.equalsIgnoreCase(studentName[i])) {
-                System.out.println(studentName[i]+ "\t" +studentAge[i]+ "\t" +studentNumber[i]+ "\t" +location[i]+ "\t" +paidFees[i]);
+        for (int i = 0; i < bookTitle.length; i++) {
+            if(searchTerm.equalsIgnoreCase(bookTitle[i])) {
+                System.out.println(bookTitle[i]+ "\t" +bookAuthor[i]+ "\t" +bookIsbn[i]+ "\t" +bookAvailable[i]);
                 found = true;
                 break;
             }
