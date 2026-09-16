@@ -11,7 +11,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         do {
-            System.out.println("Are You Adding A New Student? Y or N");
+            System.out.println("Are You Adding A New Book? Y or N");
             String userInput = in.next();
 
             if (userInput.equalsIgnoreCase("n"))break;
