@@ -3,11 +3,10 @@ import java.util.Scanner;
 
 public class Main {
     static void main(String[] args) {
-        String[] studentName = {"Assan", "Lamin", "John", "Peter","Andrew"};
-        int[] studentAge = {25,30,32,27,29};
-        int[] studentNumber = {1,2,3,4,5};
-        String[] location = {"Brusubi","Serrekunda","Lamin","Farato","Bakau"};
-        boolean[] paidFees = {true,true,false,true,false};
+        String[] bookTitle = {"The Law Of Success", "As A Man Thinketh", "The Way To Wealth"};
+        String[] bookAuthor = {"Napoleon Hill","James Allen","Benjamin Franklin"};
+        double[] bookIsbn = {978-1-58542-352-8,978-1-56414-362-4,978-1-60239-219-5};
+        boolean[] bookAvailable = {true,true,false};
 
         Scanner in = new Scanner(System.in);
 
