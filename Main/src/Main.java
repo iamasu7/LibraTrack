@@ -74,7 +74,7 @@ public class Main {
         }
 
         if (!found) {
-            System.out.println("Student Not Found.");
+            System.out.println("Book Not Found.");
         }
     }
 }
