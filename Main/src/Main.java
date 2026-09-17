@@ -76,5 +76,23 @@ public class Main {
         if (!found) {
             System.out.println("Book Not Found.");
         }
+
+        System.out.println("LIBRARY CATALOG");
+
+        for (int i = 0; i < bookTitle.length; i++) {
+            System.out.println("Book " + (i + 1));
+            System.out.println("Title: " + bookTitle[i]);
+            System.out.println("Author: " + bookAuthor[i]);
+            System.out.println("ISBN: " + bookIsbn[i]);
+
+            if (bookAvailable[i]) {
+                System.out.println("Status: Available");
+            } else {
+                System.out.println("Status: Checked Out");
+            }
+        }
+
+        
+
     }
 }
