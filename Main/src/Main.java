@@ -49,7 +49,7 @@ public class Main {
 
             String checkStatus = null;
             if (bookAvailable[i]) {
-                checkStatus = ("Paid");
+                checkStatus = ("Available");
             } else {
                 checkStatus = ("Not Paid");
             }
