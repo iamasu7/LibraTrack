@@ -51,7 +51,7 @@ public class Main {
             if (bookAvailable[i]) {
                 checkStatus = ("Available");
             } else {
-                checkStatus = ("Not Paid");
+                checkStatus = ("Not Available");
             }
             System.out.println(bookTitle[i] + " " + bookAuthor[i] + " " + bookIsbn[i] + " " + checkStatus);
 
