@@ -59,8 +59,10 @@ public class Main {
 
 
 
-        System.out.println("Enter Student Name:___");
-        String searchTerm = in.next();
+        System.out.println("Enter Book Title To Search:___");
+        in.nextLine();
+
+        String searchTerm = in.nextLine();
         boolean found = false;
 
         for (int i = 0; i < bookTitle.length; i++) {
