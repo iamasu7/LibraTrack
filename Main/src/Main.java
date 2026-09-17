@@ -22,7 +22,7 @@ public class Main {
             String author = in.next();
 
             System.out.println("Enter Book ISBN: ");
-            double isbn = in.nextDouble();
+            String isbn = in.next();
 
             System.out.println("Enter Book Status: ");
             boolean status = in.nextBoolean();
