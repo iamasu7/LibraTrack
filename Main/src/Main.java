@@ -5,7 +5,7 @@ public class Main {
     static void main(String[] args) {
         String[] bookTitle = {"The Law Of Success", "As A Man Thinketh", "The Way To Wealth"};
         String[] bookAuthor = {"Napoleon Hill","James Allen","Benjamin Franklin"};
-        double[] bookIsbn = {978-1-58542-352-8,978-1-56414-362-4,978-1-60239-219-5};
+        String[] bookIsbn = {"978-1-58542-352-8","978-1-56414-362-4","978-1-60239-219-5"};
         boolean[] bookAvailable = {true,true,false};
 
         Scanner in = new Scanner(System.in);
