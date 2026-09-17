@@ -92,7 +92,30 @@ public class Main {
             }
         }
 
-        
+        System.out.println("Enter Book Title To Checkout/Return: ");
+
+        String book = in.nextLine();
+
+        int bookIndex = -1;
+
+        for (int i = 0; i < bookTitle.length; i++) {
+            if (bookTitle[i].equalsIgnoreCase(book)) {
+                bookIndex = i;
+                break;
+            }
+        }
+
+        if (bookIndex != -1) {
+            if (bookAvailable[bookIndex]) {
+                bookAvailable[bookIndex] = false;
+                System.out.println("Book Checked Out");
+            } else {
+                bookAvailable[bookIndex] = true;
+                System.out.println("Book Returned");
+            }
+        } else {
+            System.out.println("Book Not Found");
+        }
 
     }
 }
